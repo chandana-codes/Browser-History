@@ -1,0 +1,44 @@
+.navBar {
+  background-color: #3367d6;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: none;
+  padding: 42px;
+}
+
+.appLogo {
+  align-self: flex-start;
+  width: 12%;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #2850a7;
+  border: 0.5px solid #f8fafc;
+  border-radius: 4px;
+  height: 42px;
+}
+
+.searchImg {
+  width: 20%;
+  border: 0px 0.5px 0px 0px solid #f8fafc;
+  padding: 8px;
+  /* border-radius: 12px; */
+}
+
+.searchBar {
+  background-color: #2850a7;
+  border: 0px;
+  width: 220px;
+  padding: 8px;
+}
+
+.searchBar:hover {
+  color: none;
+}

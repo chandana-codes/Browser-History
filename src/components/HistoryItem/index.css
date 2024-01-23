@@ -1,0 +1,41 @@
+.deleteBtn {
+  background-color: transparent;
+  border: 0px;
+}
+
+.historyItemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding: 24px;
+}
+
+.historyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.historyDetails {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: ; */
+  align-items: flex-start;
+}
+
+.logoUrl {
+  width: 25px;
+  height: 25px;
+  /* padding: 4px; */
+  align-self: center;
+}
+
+p {
+  color: #64748b;
+  padding: 4px;
+  font-weight: 600;
+}
+
+.logoTitle {
+  color: #475569;
+}
